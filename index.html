@@ -13,9 +13,9 @@
 
 <body>
 
-    <!-- Navbar -->
-    <nav class="navbar sticky-top navbar-dark bg-dark justify-content-start border-bottom d-flex" id="navbar">
-        <a class="navbar-brand pl-5" href="#anchor-header">
+    <!-- Navbar Large -->
+    <nav class="navbar sticky-top navbar-dark bg-dark justify-content-start border-bottom d-none d-lg-flex" id="navbar">
+        <a class="navbar-brand pl-3" href="#anchor-header">
       Arnold Schwarzenegger
      </a>
         <a href="#anchor-short" class="btn btn-outline-light mx-1" role="button"> <i class="fa fa-user"></i> About</a>
@@ -26,7 +26,23 @@
         <a href="https://twitter.com/schwarzenegger" target="_blank" class="btn btn-outline-primary mx-1" role="button"><i class="fab fa-twitter"></i> Twitter</a>
 
     </nav>
-    <!-- Navbar -->
+    <!-- Navbar Large end -->
+
+    <!-- Navbar Small -->
+    <nav class="navbar sticky-top navbar-dark bg-dark justify-content-start border-bottom d-lg-none d-flex" id="navbar-small">
+        <a class="navbar-brand pl-3" href="#anchor-header">
+  Arnold Schwarzenegger
+ </a>
+        <a href="#anchor-short" class="btn btn-outline-light mx-1" role="button"> <i class="fa fa-user"></i></a>
+        <a href="#anchor-timeline" class="btn btn-outline-light mx-1" role="button"> <i class="fas fa-stream"></i></a>
+        <a href="#anchor-career" class="btn btn-outline-light mr-auto mx-1" role="button"><i class="fas fa-trophy"></i></a>
+        <a href="https://en.wikipedia.org/wiki/Arnold_Schwarzenegger" target="_blank" id="tribute-link-small" class="btn btn-outline-light mx-1" role="button"><i class="fab fa-wikipedia-w"></i></a>
+        <a href="https://www.youtube.com/channel/UCvyyU4AdijSZFEO7qqXP6kQ" target="_blank" class="btn btn-outline-danger mx-1" role="button"><i class="fab fa-youtube"></i></a>
+        <a href="https://twitter.com/schwarzenegger" target="_blank" class="btn btn-outline-primary mx-1" role="button"><i class="fab fa-twitter"></i></a>
+
+    </nav>
+    <!-- Navbar Small end -->
+
 
     <div class="container-fluid">
         <!--Header -->
@@ -45,10 +61,10 @@
                 – Arnold Schwarzenegger
             </div>
         </div>
-        <!--Row Subheader end -->
+        <!--Subheader end -->
 
+        <!--about short -->
         <div class="row">
-            <!--about short -->
             <div class="col text-justify tribute-short" id="short">
                 <a class="anchor" id="anchor-short"></a>
                 <h3>Who Is Arnold Schwarzenegger?</h3><span id="tribute-info">
@@ -56,9 +72,10 @@
                   </span>
             </div>
         </div>
+        <!--About short end-->
 
+        <!--Tribute-about-timeline -->
         <div class="row">
-            <!--tribute-about -->
             <div class="col text-justify tribute-about" id="about">
                 <a class="anchor" id="anchor-timeline"></a>
                 <h3 id="timeline"> Timeline of Arnold Schwarzenegger's life</h3>
@@ -415,10 +432,11 @@
                 </ul>
             </div>
         </div>
-        <!-- tribute-about end-->
+        <!--Tribute-about-timeline end-->
+
+        <!--Tribute-career -->
         <div class="career-row">
             <div class="row">
-                <!--tribute-career -->
                 <div class="col-md-6 text-justify tribute-career rounded-top" id="career">
                     <a class="anchor" id="anchor-career"></a>
                     <h3> List of competitions</h3>
@@ -562,8 +580,10 @@
                             <td>Sydney, Australia</td>
                             <td> 1st (subject of the documentary The Comeback)</td>
                         </tr>
-
                     </table>
+                    <!--Tribute-career end -->
+
+                    <!--Photos -->
                     <div class="arnold-photos">
                     </div>
                 </div>
@@ -578,11 +598,14 @@
 
             </div>
         </div>
-        <!-- tribute-career end-->
+        <!--Photos end -->
+
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
 
 </html>

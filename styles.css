@@ -3,13 +3,6 @@ html {
     height: 100%;
 }
 
-a.anchor {
-    display: block;
-    position: relative;
-    top: -100px;
-    visibility: hidden;
-}
-
 body {
     background-image: url('https://wallpaperplay.com/walls/full/d/c/b/321591.jpg');
     background-position: center top 50px;
@@ -20,10 +13,29 @@ body {
     background-size: cover;
 }
 
+h3 {
+    text-indent: 2em;
+    padding-bottom: 25px;
+}
+
 @media only screen and (max-width: 1000px) {
     body {
         background-image: url(https://pp.userapi.com/r9TH3X1a1oLd_bv20mFZhFwOimJR8rRhflF3nA/p-V0bnuS3aI.jpg);
     }
+}
+
+.career-row {
+    margin: 30px 30px 20px 30px;
+    padding: 20px 20px;
+    background: rgba(0, 0, 0, 0.55);
+    border-radius: 20px;
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -100px;
+    visibility: hidden;
 }
 
 .tribute-short {
@@ -65,11 +77,6 @@ body {
     text-align: justify;
 }
 
-h3 {
-    text-indent: 2em;
-    padding-bottom: 25px;
-}
-
 #image,
 #arnold-photo2 {
     max-width: 100%;
@@ -84,11 +91,4 @@ h3 {
     margin-bottom: 0px;
     border-radius: 20px;
     height: auto;
-}
-
-.career-row {
-    margin: 30px 30px 20px 30px;
-    padding: 20px 20px;
-    background: rgba(0, 0, 0, 0.55);
-    border-radius: 20px;
 }
