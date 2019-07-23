@@ -92,3 +92,7 @@ a.anchor {
     border-radius: 20px;
     height: auto;
 }
+
+.card-header {
+    background: rgba(63, 63, 63, 0.349) !important;
+}
