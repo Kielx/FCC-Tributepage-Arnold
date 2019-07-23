@@ -4,7 +4,7 @@ html {
 }
 
 body {
-    background-image: url('https://wallpaperplay.com/walls/full/d/c/b/321591.jpg');
+    background-image: url("images/Background-large.jpg");
     background-position: center top 50px;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -20,7 +20,7 @@ h3 {
 
 @media only screen and (max-width: 1000px) {
     body {
-        background-image: url(https://pp.userapi.com/r9TH3X1a1oLd_bv20mFZhFwOimJR8rRhflF3nA/p-V0bnuS3aI.jpg);
+        background-image: url("images/Background-small.jpg");
     }
 }
 
