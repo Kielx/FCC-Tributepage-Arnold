@@ -1,2 +1,2 @@
-# FCC-Tributepage-Arnold
-Tribute page to Arnold Schwarzenegger. My first FCC project.
+# Tribute page dedicated to Arnold Schwarzenegger
+My first FCC project and my first project overall.
